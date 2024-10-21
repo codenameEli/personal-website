@@ -358,61 +358,83 @@ section.skills {
 }
 
 .skills .item.item--javascript {
-  background-color: #FFFF00;
+  background-color: #ffff007d;
 }
 
 .skills .item.item--php {
-  background-color: #7A86B8;
+  background-color: #7a86b878;
 }
 
 .skills .item.item--wordpress {
-  background-color: #21759b;
+  background-color: #21749b72;
 }
 
 .skills .item.item--angular {
-  background-color: #F44336;
+  background-color: #f443367e;
 }
 
 .skills .item.item--react {
-  background-color: #61DAFB;
+  background-color: #61dafb80;
 }
 
 .skills .item.item--woocommerce {
-  background-color: #96588a;
+  background-color: #96588a77;
 }
 
 .skills .item.item--shopify {
-  background-color: #96bf48;
+  background-color: #95bf4884;
 }
 
 .skills .item.item--umbraco {
-  background-color: #3544b1;
+  background-color: #3543b17b;
 }
 
 .skills .item.item--git {
-  background-color: #F1502F;
+  background-color: #f14f2f76;
 }
 
 .skills .item.item--sysadmin {
-  background-color: #FFF;
+  background-color: #ffffff78;
 }
 
 .skills .item.item--mjml {
-  background-color: #eb3c48;
+  background-color: #eb3c4888;
 }
 
 .skills .item.item--webpack {
-  background-color: #8dd6f9;
+  background-color: #8dd7f980;
 }
 
 .skills .item.item--gulp {
-  background-color: #cf4647;
+  background-color: #cf46467e;
 }
 
 .skills .item.item--nextjs {
   background-color: #000;
   color: #FFF;
   border-color: #374151;
+}
+
+.skills .item.item--tailwind {
+  background-color: #39bcf880;
+}
+
+.skills .item.item--threejs {
+  background-color: #FFF;
+  color: #000;
+  border-color: #374151;
+}
+
+.skills .item.item--gsap {
+  background-color: #0ae44886;
+}
+
+.skills .item.item--bootstrap {
+  background-color: #4c0bce88;
+}
+
+.skills .item.item--ionic {
+  background-color: #176cff83;
 }
 
 @media (max-width: 1200px) {
