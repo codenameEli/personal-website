@@ -6,6 +6,7 @@ import styles from "./Navigation.module.css";
 import { MenuItem, RootQueryToMenuItemConnection } from "@/gql/graphql";
 import { fetchGraphQL } from "@/utils/fetchGraphQL";
 import gql from "graphql-tag";
+import MobileButton from "./MobileButton";
 
 async function getData() {
   const menuQuery = gql`
@@ -34,28 +35,32 @@ async function getData() {
 export default async function Navigation() {
   const menuItems = await getData();
 
-  console.log(menuItems)
   return (
-    <nav
-      className={styles.navigation}
-      role="navigation"
-      itemScope
-      itemType="http://schema.org/SiteNavigationElement"
-    >
-      {menuItems.nodes.map((item: MenuItem, index: number) => {
-        if (!item.uri) return null;
+    <header className="site-header">
+      <div className="site-header-logo">
+        <a href="/" className="rubik-wet-paint-regular">td</a>
+      </div>
+      <nav
+        className={styles.navigation}
+        role="navigation"
+        itemScope
+        itemType="http://schema.org/SiteNavigationElement"
+      >
+        {menuItems.nodes.map((item: MenuItem, index: number) => {
+          if (!item.uri) return null;
 
-        return (
-          <Link
-            itemProp="url"
-            href={item.uri}
-            key={index}
-            target={item.target || "_self"}
-          >
-            <span itemProp="name">{item.label}</span>
-          </Link>
-        );
-      })}
-    </nav>
+          return (
+            <Link
+              itemProp="url"
+              href={item.uri}
+              key={index}
+              target={item.target || "_self"}
+            >
+              <span itemProp="name">{item.label}</span>
+            </Link>
+          );
+        })}
+      </nav>
+    </header>
   );
 }
