@@ -474,6 +474,35 @@ section.contact {
     line-height: 1.5;
 }
 
+.contact__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.contact__links a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.contact__links i {
+  font-size: 38px;
+}
+
+.contact__links a:hover {
+  color: orange;
+}
+
+.contact__links span {
+  font-size: 12px;
+}
+
 @media (max-width: 1200px) {
   .contact__content {
     padding-left: 100px;
