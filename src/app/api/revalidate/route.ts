@@ -17,13 +17,11 @@ export async function PUT(request: NextRequest) {
   try {
     if (paths && Array.isArray(paths) && paths.length > 0) {
       Promise.all(paths.map((path) => revalidatePath(path)));
-      console.log("Revalidated paths:", paths);
       revalidated = true;
     }
 
     if (tags && Array.isArray(tags) && tags.length > 0) {
       Promise.all(tags.map((tag) => revalidateTag(tag)));
-      console.log("Revalidated tags:", tags);
       revalidated = true;
     }
 
