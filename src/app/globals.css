@@ -562,11 +562,13 @@ img.hero__featured-image {
 .my-work .title {
   font-weight: 800;
   margin: 30px 0;
+  width: 30%;
 }
 
 .my-work .description {
   font-size: 18px;
   line-height: 28px;
+  width: 70%;
 }
 
 .my-work__items {
@@ -673,6 +675,13 @@ img.hero__featured-image {
 
   .my-work .title {
     margin-top: 0;
+    width: 100%;
+  }
+
+  .my-work .description {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
   }
 }
 
