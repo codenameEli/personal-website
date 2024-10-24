@@ -261,6 +261,12 @@ a.button {
   }
 }
 
+@media (max-width: 480px) {
+  a.button {
+    padding: 10px 15px;
+  }
+}
+
 a.button:hover {
   color: #d04221;
 }
@@ -513,6 +519,32 @@ img.hero__featured-image {
   }
 }
 
+@media (max-width: 480px) {
+  h1.hero__title {
+    margin-bottom: 0;
+  }
+
+  img.hero__avatar {
+    margin-bottom: 30px;
+  }
+
+  p.hero__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  img.hero__featured-image {
+    height: 300px;
+    margin-bottom: 0;
+    object-position: right;
+  }
+
+  section.hero {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
 /* END Hero */
 
 /* START My Work */
@@ -623,12 +655,34 @@ img.hero__featured-image {
     flex-direction: column;
   }
 
+  .my-work__items:last-child {
+    margin-bottom: 0;
+  }
+
+  .my-work__header .title {
+    margin-right: 0;
+  }
+
   .my-work__item.card {
     max-width: 100%;
   }
 
   .my-work {
     padding-bottom: 0;
+  }
+
+  .my-work .title {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-work {
+    padding: 30px 0;
+  }
+
+  .my-work__item .image {
+    height: 200px;
   }
 }
 
@@ -737,7 +791,9 @@ img.hero__featured-image {
     max-width: 200px;
   }
 
-
+  .skills .title {
+    margin-top: 0;
+  }
 }
 
 /* END Skills */
@@ -816,6 +872,12 @@ a.cta-button:hover {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  section.contact {
+    padding-top: 0;
   }
 }
 
