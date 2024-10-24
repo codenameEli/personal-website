@@ -38,7 +38,7 @@ export default async function Navigation() {
   return (
     <header className="site-header">
       <div className="site-header-logo">
-        <a href="/" className="rubik-wet-paint-regular">td</a>
+        <a href="/" className="rubik-wet-paint-regular">Tim Dalbey</a>
       </div>
       <nav
         className={styles.navigation}
