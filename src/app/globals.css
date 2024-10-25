@@ -380,6 +380,14 @@ a.button:hover:after {
   background-image: url(https://blog.timdalbey.com/wp-content/uploads/2024/10/Figma.svg);
 }
 
+.icon--mjml {
+  background-image: url(https://blog.timdalbey.com/wp-content/uploads/2024/10/mjml.svg);
+}
+
+.icon--node {
+  background-image: url(https://blog.timdalbey.com/wp-content/uploads/2024/10/Node.js.svg);
+}
+
 /* END Icons */
 
 @media (max-width: 768px) {
@@ -636,6 +644,14 @@ img.hero__featured-image {
   bottom: 30px;
   right: 30px;
   display: flex;
+}
+
+.my-work__item.card .title {
+  width: 100%;
+}
+
+.my-work__item.card .description {
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
