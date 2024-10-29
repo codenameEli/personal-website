@@ -264,7 +264,7 @@ a.button {
 }
 
 a.button:hover {
-  color: #d04221;
+  color: #be3618;
 }
 
 a.button:after {
@@ -276,7 +276,7 @@ a.button:after {
 
 a.button:hover:after {
   transform: translateX(15px);
-  color: #d04221;
+  color: #be3618;
 }
 
 .buttons {
@@ -415,7 +415,7 @@ a.button:hover:after {
   text-decoration: none;
 
   &:hover {
-    color: #d04221;
+    color: #be3618;
   }
 }
 
@@ -868,7 +868,7 @@ section.contact {
 }
 
 .contact__links a:hover {
-  color: #d04221;
+  color: #be3618;
 }
 
 .contact__links span {
@@ -885,13 +885,13 @@ a.cta-button {
   transition: all 300ms ease;
   text-decoration: none;
   font-weight: 800;
-  background-color: #f94118;
+  background-color: #D92E08;
   color: #FFF;
   margin: 15px auto 45px;
 }
 
 a.cta-button:hover {
-  background: #d04221;
+  background: #be3618;
   box-shadow: 0 0 2px 2px #80808040;
 }
 
