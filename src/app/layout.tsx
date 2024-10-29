@@ -6,7 +6,7 @@ import "@/app/globals.css";
 import Navigation from "@/components/Globals/Navigation/Navigation";
 import { PreviewNotice } from "@/components/Globals/PreviewNotice/PreviewNotice";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ weight: ["400","800","900"], subsets: ["latin"] });
 
 export default function RootLayout({
   children,

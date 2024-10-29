@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -162,7 +160,6 @@ body {
 
 body {
   color: #0f0f0f;
-  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -180,7 +177,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
@@ -413,7 +409,6 @@ a.button:hover:after {
 }
 
 .site-header a {
-  font-family: "Inter", system-ui;
   font-weight: 900;
   font-style: normal;
   font-size: 20px;
